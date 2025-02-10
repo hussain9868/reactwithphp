@@ -8,7 +8,7 @@ const Dashboard = () => {
   // Redirect to SignIn if user is not logged in
   useEffect(() => {
     if (!user) {
-      navigate("/signin");
+      navigate("/signin"); 
     }
   }, [user, navigate]);
 
